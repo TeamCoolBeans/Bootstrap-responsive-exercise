@@ -17,6 +17,8 @@
 
 body {
     padding-top: 50px;
+    background-color: #F2F2F2;
+    color: #636669;
 }
 
 .navbar-nav {
@@ -52,4 +54,28 @@ body {
 
 .fixed-height-container{
     height: 50px;
+}
+
+#text-in-circle{
+    padding: 10px 40px;
+    background: #D47D6B;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    color: white;
+}
+
+#text-in-circle h3{
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+
+.page-header{
+    text-align: center;
 }

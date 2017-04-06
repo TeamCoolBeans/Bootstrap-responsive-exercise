@@ -89,7 +89,7 @@ body {
 
 #text-in-circle3 {
     padding: 40px 0;
-    background: #A3BF91;
+    background: #7CBBB8;
     width: 125px;
     height: 125px;
     border-radius: 50%;
@@ -105,11 +105,12 @@ body {
 
 #text-in-circle4 {
     padding: 40px 0px;
-    background: #7CBBB8;
+    background: #A3BF91;
     width: 125px;
     height: 125px;
     border-radius: 50%;
     border: 2px solid lightgray;
+    margin-left: 0;
 
     color: white;
 }
@@ -123,7 +124,7 @@ body {
     text-align: center;
 }
 
-#firstimg{
+#firstimg {
     position: relative;
     width: 300px;
     height: 100px;
@@ -131,7 +132,7 @@ body {
     top: 175px;
 }
 
-#secondimg{
+#secondimg {
     position: relative;
     width: 300px;
     height: 100px;
@@ -139,7 +140,7 @@ body {
     top: 175px;
 }
 
-#thirdimg{
+#thirdimg {
     position: relative;
     width: 300px;
     height: 100px;
@@ -147,7 +148,7 @@ body {
     top: 350px;
 }
 
-#fourthimg{
+#fourthimg {
     position: relative;
     width: 300px;
     height: 100px;
@@ -173,4 +174,13 @@ img {
 
 .col-xs-4 {
     text-align: left;
+}
+
+.row {
+    text-align: center;
+}
+
+.text-center {
+    padding-left: 100px;
+    align-content: center;
 }
